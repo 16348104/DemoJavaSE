@@ -26,5 +26,17 @@ public class Operator {
 
         System.out.println((x==y)|(y++>x));
         System.out.println(y);
+
+        int i = 1;
+        i %= 100; // i = i + 100;
+        System.out.println(i);
+
+        b1 ^= true;
+        System.out.println(b1);
+
+        System.out.println(x);
+        System.out.println(y);
+        double b = (x < y)?(x+y):(x-y);
+        System.out.println(b);
     }
 }

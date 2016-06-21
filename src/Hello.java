@@ -2,7 +2,7 @@
  * Created by mingfei.net@gmail.com
  * 2016/6/20 13:51
  */
-class Hi {
+class Hi { // 类文件 / 字节码文件
 //    boolean
 //    byte
 //    char

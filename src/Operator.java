@@ -24,7 +24,7 @@ public class Operator {
         System.out.println(x);
         System.out.println(y);
 
-        System.out.println((x==y)|(y++>x));
+        System.out.println((x == y) | (y++ > x));
         System.out.println(y);
 
         int i = 1;
@@ -36,7 +36,16 @@ public class Operator {
 
         System.out.println(x);
         System.out.println(y);
-        double b = (x < y)?(x+y):(x-y);
+        double b = (x < y) ? (x + y) : (x - y);
         System.out.println(b);
+
+        float f = (float) 3.14;
+
+        char c1 = 1;
+        int c2 = c1;
+        System.out.println((int) c1);
+
+        int d = (2 * 3 / 5) + (2 * 3 / 4 % 5); // 可读性强
+        System.out.println(d);
     }
 }

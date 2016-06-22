@@ -8,7 +8,24 @@ public class E4 {
     public static void main(String[] args) {
         // 100 = 2*2*5*5
         // 120 = 2*2*2*3*5
+        // 121 = 11 * 11
         // 1000 = 2*2*2*5*5*5
         // 123456789 =
+
+        int n = 123456789;
+        System.out.print(n + " = ");
+        compute(n);
+    }
+
+    static void compute(int n) {
+        for (int i = 2; i < n + 1; i++) {
+            if (i == n) {
+                System.out.print(i);
+            } else if (n % i == 0) {
+                System.out.print(i + "*");
+                compute(n / i); // 递归调用
+                break;
+            }
+        }
     }
 }

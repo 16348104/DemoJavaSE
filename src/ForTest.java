@@ -26,5 +26,13 @@ public class ForTest {
             }
             System.out.println();
         }
+
+        System.out.println(-Integer.MAX_VALUE - 1 == Integer.MIN_VALUE);
+        // 2147483647 2^31-1 2^31
+
+        int i = 10;
+        int n = ++i;
+        n = ++i;
+        System.out.println(i + ", "  + n);
     }
 }

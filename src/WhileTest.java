@@ -1,12 +1,9 @@
 /**
  * Created by mingfei.net@gmail.com
- * 2016/6/21 16:02
+ * 2016/6/22 8:52
  */
-public class ForTest {
+public class WhileTest {
     public static void main(String[] args) {
-//        for (int i = 0; i < 10; i++) {
-//            System.out.println(i);
-//        }
         int i = 0;
         while (i < 10) {
             System.out.println(i);

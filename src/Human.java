@@ -10,16 +10,18 @@ public class Human {
     double height;
     double weight;
 
-    public void eat() {
-
+    public void eat(String food, String time) {
+        System.out.println("eat " + food + ", at " + time);
     }
 
-    public void sleep() {
+    public int sleep(int hour) {
 
+        return hour;
     }
 
-    public void study() {
-
+    public String study(String content) {
+        System.out.println("study " + content);
+        return content;
     }
 
     public void work() {

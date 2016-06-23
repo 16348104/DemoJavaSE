@@ -13,7 +13,7 @@ public class E4 {
         // 123456789 =
 
         int n = 123456789;
-        System.out.print(n + " = 1*");
+        System.out.print(n + " = ");
         compute(n);
     }
 

@@ -14,10 +14,18 @@ public class Human {
 //    public Human() { // 构造方法 constructor
 //
 //    }
+//
+//    public Human(String name) {
+//        this.name = name;
+//    }
+//
+//    public Human(String name, String gender, int age) {
+//        this.name = name;
+//        this.gender = gender;
+//        this.age = age;
+//    }
 
     // Alert + Insert
-
-
     public Human(String name, String gender, int age, double height, double weight, boolean isMarried) {
         this.name = name;
         this.gender = gender;
@@ -32,29 +40,16 @@ public class Human {
     }
 
     public int sleep(int hour) {
-        study("Web开发");
+        System.out.println(name + " sleep " + hour);
         return hour;
     }
 
     public String study(String content) {
-        eat("面包","早晨");
         System.out.println("study " + content);
         return content;
     }
 
     public void work() {
 
-    }
-
-    public static void main(String[] args) {
-        Human zhangsan = new Human("张三", "男", 18, 1.7, 65, false); // Ctrl + P(arameter)
-        System.out.println(zhangsan.name);
-        System.out.println(zhangsan.gender);
-        System.out.println(zhangsan.age);
-        System.out.println(zhangsan.height);
-        System.out.println(zhangsan.weight);
-        System.out.println(zhangsan.isMarried);
-
-        zhangsan.eat("米饭", "中午");
     }
 }

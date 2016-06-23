@@ -12,14 +12,17 @@ public class Human {
 
     public void eat(String food, String time) {
         System.out.println("eat " + food + ", at " + time);
+        work();
+//        return;
     }
 
     public int sleep(int hour) {
-
+        study("Web开发");
         return hour;
     }
 
     public String study(String content) {
+        eat("面包","早晨");
         System.out.println("study " + content);
         return content;
     }

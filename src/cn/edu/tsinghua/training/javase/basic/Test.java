@@ -27,12 +27,12 @@ public class Test extends DefaultTest {
 //        System.out.println(e52.counter);
 
         DefaultTest defaultTest = new DefaultTest();
-        System.out.println(defaultTest.b);
+//        System.out.println(defaultTest.b);
 //        System.out.println(defaultTest.s);
 //        defaultTest.m4();
 
         Test test = new Test();
-        System.out.println(test.s);
+//        System.out.println(test.s);
         test.m4();
     }
 }

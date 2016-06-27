@@ -1,34 +1,57 @@
 package cn.edu.tsinghua.training.javase.basic;
 
-import java.math.BigDecimal;
-
 /**
  * Created by mingfei.net@gmail.com
  * 2016/6/27 10:02
  */
 public class Calculator {
 
-    // add sub mul div
+    private int x;
+    private int y;
 
-    int add(int x, int y) {
-        return x + y;
+//    public Calculator(int x, int y) {
+//        this.x = x;
+//        if (y==0) {
+//            System.out.println("y can not be zero...");
+//            System.exit(0);
+//        }
+//        this.y = y;
+//    }
+
+    public int div() {
+        return x / y;
     }
 
-    double add(double x, double y) {
-        BigDecimal bigDecimalX = new BigDecimal(Double.toString(x));
-        BigDecimal bigDecimalY = new BigDecimal(Double.toString(y));
-        return bigDecimalX.add(bigDecimalY).doubleValue();
+    public int getX() {
+        return x;
     }
 
+    public int getY() {
+        return y;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public void setY(int y) {
+        if (y == 0) {
+            System.out.println("y can not be zero...");
+            System.exit(0);
+        }
+        this.y = y;
+    }
+}
+
+class CalculatorTest {
     public static void main(String[] args) {
         Calculator calculator = new Calculator();
-        int x = 1;
-        int y = 2;
-        System.out.println(x + " + " + y + " = " + calculator.add(x, y));
-
-        double a = 0.1;
-        double b = 0.2;
-        System.out.println(a + " + " + b + " = " + calculator.add(a, b));
-
+//        calculator.x = 1;
+//        calculator.y = 2;
+//        System.out.println(calculator.getX());
+//        System.out.println(calculator.getY());
+        calculator.setX(3);
+        calculator.setY(0);
+        System.out.println(calculator.div());
     }
 }

@@ -31,8 +31,8 @@ public class Test {
 
         DefaultTest defaultTest = new DefaultTest();
         defaultTest.m1();
-        System.out.println(defaultTest.b);
-        System.out.println(defaultTest.s);
+//        System.out.println(defaultTest.b);
+//        System.out.println(defaultTest.s);
         defaultTest.m4();
     }
 }

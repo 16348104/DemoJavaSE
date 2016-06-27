@@ -6,29 +6,26 @@ package cn.edu.tsinghua.training.javase.util;
  */
 public class DefaultTest {
 
-    int i;
+    private int i;
     private double d;
-    public boolean b;
-    protected String s;
+    private boolean b;
+    private String s;
 
-    void m1() {
-        m2();
-        System.out.println(d);
+    public void m1() {
     }
 
-    private void m2() {
-
+    public void m2() {
     }
 
     public void m3() {
-
     }
 
-    protected void m4() {
-
+    public void m4() {
     }
 
     public static void main(String[] args) {
-        System.out.println("hi");
+        DefaultTest defaultTest = new DefaultTest();
+
     }
+
 }

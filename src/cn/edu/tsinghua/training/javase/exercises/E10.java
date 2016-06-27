@@ -28,9 +28,7 @@ public class E10 {
             return height / Math.pow(2, n);
         }
     }
-}
 
-class E10Test {
     public static void main(String[] args) {
         E10 e10 = new E10(100);
         int n = 100;

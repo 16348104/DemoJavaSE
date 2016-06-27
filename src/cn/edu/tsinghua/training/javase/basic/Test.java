@@ -1,7 +1,6 @@
 package cn.edu.tsinghua.training.javase.basic;
 
 import cn.edu.tsinghua.training.javase.exercises.E52;
-import cn.edu.tsinghua.training.javase.util.DefaultTest;
 
 /**
  * Created by mingfei.net@gmail.com

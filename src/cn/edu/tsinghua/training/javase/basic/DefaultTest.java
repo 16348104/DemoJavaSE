@@ -1,4 +1,4 @@
-package cn.edu.tsinghua.training.javase.util;
+package cn.edu.tsinghua.training.javase.basic;
 
 /**
  * Created by mingfei.net@gmail.com

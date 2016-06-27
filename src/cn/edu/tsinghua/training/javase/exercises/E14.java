@@ -1,4 +1,4 @@
-package cn.edu.tsinghua.training.javase.basic;
+package cn.edu.tsinghua.training.javase.exercises;
 
 import java.util.Scanner;
 

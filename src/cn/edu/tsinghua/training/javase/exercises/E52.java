@@ -6,17 +6,22 @@ package cn.edu.tsinghua.training.javase.exercises;
  */
 public class E52 {
 
-    int counter;
+    static int counter;
 
-    public void hanoi(int n, char src, char with, char dest) {
+    public static void hanoi(int n, char src, char with, char dest) {
         if (n == 1) {
-            System.out.println(src + "->" + dest);
+//            System.out.println(src + "->" + dest);
             counter++;
         } else {
             hanoi(n - 1, src, dest, with); // ***
-            System.out.println(src + "->" + dest);
+//            System.out.println(src + "->" + dest);
             counter++;
             hanoi(n - 1, with, src, dest);
         }
+    }
+
+    public static void main(String[] args) {
+        hanoi(64, 'a', 'b', 'c');
+        System.out.println(counter  / 365);
     }
 }

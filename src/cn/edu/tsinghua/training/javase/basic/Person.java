@@ -1,5 +1,7 @@
 package cn.edu.tsinghua.training.javase.basic;
 
+import static java.lang.System.out;
+
 /**
  * Created by Administrator
  * 2016/6/28.
@@ -16,7 +18,7 @@ public class Person {
     public static void main(String[] args) {
 
         earth = "地球";
-        System.out.println(earth);
+        out.println(earth);
 
 //        name = "zhangsan";
 //        Person zhangsan = new Person();

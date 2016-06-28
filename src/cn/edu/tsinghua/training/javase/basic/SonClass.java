@@ -22,4 +22,9 @@ public class SonClass extends FatherClass {
     void m2() {
 
     }
+
+    public static void main(String[] args) {
+        FatherClass fatherClass = new SonClass(1, 1, true);
+//        SonClass sonClass = new FatherClass(1, 1);
+    }
 }

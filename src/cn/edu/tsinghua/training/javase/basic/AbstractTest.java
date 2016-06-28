@@ -23,15 +23,15 @@ public abstract class AbstractTest {
 //        i = 1;
         SubAbstractTest subAbstractTest = new SubAbstractTest();
 //        System.out.println(subAbstractTest.i);
-        subAbstractTest.m();
+//        subAbstractTest.m();
         subAbstractTest.method("");
         subAbstractTest.m2();
     }
 }
 
-class SubAbstractTest extends AbstractTest {
+class SubAbstractTest {
 
-    @Override // 注解
+//    @Override // 注解
     public String method(String s) {
         return null;
     }

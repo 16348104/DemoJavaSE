@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cn.edu.tsinghua.training.javase.basic.sea</OriginalElement>
+  <nodes>
+    <node x="1038.25" y="220.0">cn.edu.tsinghua.training.javase.basic.sea.Fish</node>
+    <node x="1883.5" y="728.5">cn.edu.tsinghua.training.javase.basic.sea.Helicopter</node>
+    <node x="1798.25" y="440.0">cn.edu.tsinghua.training.javase.basic.sea.AirPlane</node>
+    <node x="2022.3095588235296" y="0.0">cn.edu.tsinghua.training.javase.basic.sea.Human</node>
+    <node x="873.2500000000001" y="463.0">cn.edu.tsinghua.training.javase.basic.sea.Piranha</node>
+    <node x="0.0" y="683.0">cn.edu.tsinghua.training.javase.basic.sea.Seaplane</node>
+    <node x="507.2500000000001" y="463.0">cn.edu.tsinghua.training.javase.basic.sea.Anemonefish</node>
+    <node x="150.2500000000001" y="440.5">cn.edu.tsinghua.training.javase.basic.sea.Submarine</node>
+    <node x="1715.5595588235296" y="243.0">cn.edu.tsinghua.training.javase.basic.sea.Flyer</node>
+    <node x="90.00000000000011" y="243.0">cn.edu.tsinghua.training.javase.basic.sea.Diver</node>
+    <node x="1451.25" y="440.5">cn.edu.tsinghua.training.javase.basic.sea.FlyingFish</node>
+    <node x="1917.5595588235296" y="220.0">cn.edu.tsinghua.training.javase.basic.sea.SwimPlayer</node>
+    <node x="339.5000000000001" y="23.0">cn.edu.tsinghua.training.javase.basic.sea.Swimmer</node>
+    <node x="313.0000000000001" y="197.0">cn.edu.tsinghua.training.javase.basic.sea.Boat</node>
+    <node x="1173.25" y="463.0">cn.edu.tsinghua.training.javase.basic.sea.Shark</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.Submarine" target="cn.edu.tsinghua.training.javase.basic.sea.Boat">
+      <point x="84.25" y="-96.0" />
+      <point x="403.0000000000001" y="420.0" />
+      <point x="446.0000000000001" y="420.0" />
+      <point x="0.0" y="96.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.Boat" target="cn.edu.tsinghua.training.javase.basic.sea.Swimmer">
+      <point x="0.0" y="-96.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.Seaplane" target="cn.edu.tsinghua.training.javase.basic.sea.AirPlane">
+      <point x="79.5" y="-96.0" />
+      <point x="238.5" y="658.0" />
+      <point x="1875.5" y="658.0" />
+      <point x="-77.25" y="96.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.FlyingFish" target="cn.edu.tsinghua.training.javase.basic.sea.Flyer">
+      <point x="81.75" y="-96.0" />
+      <point x="1696.5" y="420.0" />
+      <point x="1761.0595588235296" y="420.0" />
+      <point x="-45.5" y="50.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.Shark" target="cn.edu.tsinghua.training.javase.basic.sea.Fish">
+      <point x="0.0" y="-73.5" />
+      <point x="1302.25" y="420.0" />
+      <point x="1187.625" y="420.0" />
+      <point x="29.875" y="73.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.Seaplane" target="cn.edu.tsinghua.training.javase.basic.sea.Swimmer">
+      <point x="-79.5" y="-96.0" />
+      <point x="79.50000000000011" y="167.0" />
+      <point x="360.8000000000002" y="167.0" />
+      <point x="-85.19999999999993" y="50.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.FlyingFish" target="cn.edu.tsinghua.training.javase.basic.sea.Fish">
+      <point x="-81.75" y="-96.0" />
+      <point x="1533.0" y="410.0" />
+      <point x="1247.375" y="410.0" />
+      <point x="89.625" y="73.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.SwimPlayer" target="cn.edu.tsinghua.training.javase.basic.sea.Human">
+      <point x="81.25" y="-73.5" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.Diver" target="cn.edu.tsinghua.training.javase.basic.sea.Swimmer">
+      <point x="0.0" y="-50.5" />
+      <point x="191.5000000000001" y="177.0" />
+      <point x="403.4000000000001" y="177.0" />
+      <point x="-42.60000000000002" y="50.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.Anemonefish" target="cn.edu.tsinghua.training.javase.basic.sea.Fish">
+      <point x="0.0" y="-73.5" />
+      <point x="680.2500000000001" y="410.0" />
+      <point x="1068.125" y="410.0" />
+      <point x="-89.625" y="73.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.Fish" target="cn.edu.tsinghua.training.javase.basic.sea.Swimmer">
+      <point x="0.0" y="-73.5" />
+      <point x="1157.75" y="177.0" />
+      <point x="488.60000000000014" y="177.0" />
+      <point x="42.599999999999966" y="50.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.AirPlane" target="cn.edu.tsinghua.training.javase.basic.sea.Flyer">
+      <point x="0.0" y="-96.5" />
+      <point x="1952.75" y="420.0" />
+      <point x="1852.0595588235296" y="420.0" />
+      <point x="45.5" y="50.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.Piranha" target="cn.edu.tsinghua.training.javase.basic.sea.Fish">
+      <point x="-1.1368683772161603E-13" y="-73.5" />
+      <point x="1013.25" y="420.0" />
+      <point x="1127.875" y="420.0" />
+      <point x="-29.875" y="73.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.SwimPlayer" target="cn.edu.tsinghua.training.javase.basic.sea.Swimmer">
+      <point x="-81.25" y="-73.5" />
+      <point x="1998.8095588235296" y="167.0" />
+      <point x="531.2" y="167.0" />
+      <point x="85.19999999999993" y="50.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.Helicopter" target="cn.edu.tsinghua.training.javase.basic.sea.AirPlane">
+      <point x="0.0" y="-50.5" />
+      <point x="77.25" y="96.5" />
+    </edge>
+    <edge source="cn.edu.tsinghua.training.javase.basic.sea.Submarine" target="cn.edu.tsinghua.training.javase.basic.sea.Diver">
+      <point x="-84.25" y="-96.0" />
+      <point x="234.5000000000001" y="420.0" />
+      <point x="191.5000000000001" y="420.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8272296423955192" x="1150.5" y="437.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

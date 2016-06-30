@@ -14,8 +14,8 @@ public class PrimitiveTest {
         float f; // Float
         double d = 1.234; // Double
 
-        Boolean b2 = new Boolean(false);
-        Byte b3 = new Byte((byte) 12);
+        Boolean b2 = false;
+        Byte b3 = (byte) 12;
 
         System.out.println(Integer.MAX_VALUE);
 
@@ -29,5 +29,11 @@ public class PrimitiveTest {
 
         String s3 = "12.34";
         double v = Double.parseDouble(s3);
+
+        System.out.println(b3.compareTo((byte) 1));
+
+        Integer integer = 2;
+        Integer integer1 = 30;
+        System.out.println(integer.compareTo(integer1));
     }
 }

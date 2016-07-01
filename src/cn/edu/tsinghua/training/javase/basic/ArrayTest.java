@@ -1,5 +1,7 @@
 package cn.edu.tsinghua.training.javase.basic;
 
+import java.util.Arrays;
+
 /**
  * Created by Administrator
  * 2016/6/30.
@@ -37,6 +39,8 @@ public class ArrayTest {
         for (Object object : objects) {
             System.out.println(object);
         }
+
+        System.out.println(Arrays.toString(strings));
     }
 }
 

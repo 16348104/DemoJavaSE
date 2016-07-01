@@ -18,5 +18,14 @@ public class ArrayTest {
         String[] strings = {"test", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hi", "hello", "hitest"};
         System.out.println(strings.length);
         System.out.println(strings[strings.length - 1]);
+
+        for (String s : strings) {
+            System.out.println(s);
+        }
+
+        for (int i = 0; i < strings.length; i++) {
+            System.out.println(i);
+            System.out.println(strings[i]);
+        }
     }
 }

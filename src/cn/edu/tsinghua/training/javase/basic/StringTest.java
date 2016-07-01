@@ -7,13 +7,13 @@ package cn.edu.tsinghua.training.javase.basic;
 public class StringTest {
     public static void main(String[] args) {
         String s = "hello";
-        System.out.println(s); // hello
-        test(s);
-        System.out.println(s); // ? hello hellotest
-    }
+        String s1 = "hi";
+        char[] chars = {'a', 'b', 'c', 'd'};
+        String s2 = new String(chars);
+        System.out.println(s2);
 
-    public static void test(String s) {
-        s += "test"; // s = s + "test";
-        System.out.println(s); // hellotest
+        for (int i = 0; i < s2.length(); i++) {
+            System.out.println(s2.charAt(i));
+        }
     }
 }

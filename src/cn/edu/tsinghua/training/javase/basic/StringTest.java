@@ -6314,6 +6314,35 @@ public class StringTest {
         System.out.println(s4.toUpperCase().toLowerCase());
 
         System.out.println(upper("HELLo"));
+
+        String s5 = "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/07/02/giant-rocket.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/C8SW.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/07/01/nasa-x-planes.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/Q7Q2.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/06/20/dent-in-rings.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/6IBY.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/06/16/small-asteroid.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/6OBB.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/06/11/trans-women-prisoner.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/Q2DL.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/06/02/nasa-beam-module.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/7955.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/05/17/latest-discoveries.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/5EI6.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/05/02/mystery-lines.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/TC09.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/04/28/spacex-red-dragon.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/LNOY.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/04/27/sail-deep-space.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/RG2P.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/04/26/hubbles-greatest.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/3OUG.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/04/25/soyuz-capsule-landing.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/2JCW.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/04/21/temperatures-ocean.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/LZFK.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/04/16/space-habitat.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"http://tankr.net/s/custom/4N1E.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/04/08/beam-iss.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/HYM6.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/03/19/large-fire.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/PAD6.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/03/06/astronaut-scott-kelly.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/Z0ZS.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/03/05/welcomed-nasa-astronaut.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/LS52.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/03/03/nasa-invited-india.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/D1EY.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/02/23/music-at-moon.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/IOF8.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/02/17/alien-hunters.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/G7IF.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/02/13/space-tourism-posters.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/Q5GB.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/02/07/keeping-in-cabin.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/50X9.jpg\" width=\"175\" height=\"98\" /></a></div>\n" +
+                "<div class=\"thumbs_b\"><a href=\"http://jandan.net/2016/01/30/deep-space-habitat.html\" target=\"_blank\"><img class=\"lazy\" data-original=\"//tankr.net/s/custom/DM5N.jpg\" width=\"175\" height=\"98\" /></a></div>";
+
+        for (String s6 : s5.split("\\n")) {
+            System.out.println(s6.substring(s6.indexOf("tankr"), s6.indexOf("jpg") + 3));
+        }
     }
 
     public static String lower(String s) {

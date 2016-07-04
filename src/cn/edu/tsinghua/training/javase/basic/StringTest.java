@@ -6312,13 +6312,29 @@ public class StringTest {
         System.out.println(s4.substring(4));
 
         System.out.println(s4.toUpperCase().toLowerCase());
+
+        System.out.println(upper("HELLo"));
     }
 
     public static String lower(String s) {
-        return null;
+        char[] chars = s.toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            char c = chars[i];
+            if (c > 'A' && c < 'Z') {
+                chars[i] = (char) (c + 32);
+            }
+        }
+        return new String(chars);
     }
 
     public static String upper(String s) {
-        return null;
+        char[] chars = s.toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            char c = chars[i];
+            if (c > 'a' && c < 'z') {
+                chars[i] = (char) (c - 32);  // A - 65; a - 97
+            }
+        }
+        return new String(chars);
     }
 }

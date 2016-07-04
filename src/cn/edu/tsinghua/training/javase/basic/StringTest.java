@@ -5,15 +5,16 @@ package cn.edu.tsinghua.training.javase.basic;
  * 2016/6/30.
  */
 public class StringTest {
+
     public static void main(String[] args) {
         String s = "hello";
-        String s1 = "hi";
-        char[] chars = {'a', 'b', 'c', 'd'};
-        String s2 = new String(chars);
-        System.out.println(s2);
+        String s1 = new String("hello");
 
-        for (int i = 0; i < s2.length(); i++) {
-            System.out.println(s2.charAt(i));
-        }
+        System.out.println(s);
+        System.out.println(s1);
+
+        System.out.println(s == s1);
+
+        System.out.println(s.equals(s1));
     }
 }

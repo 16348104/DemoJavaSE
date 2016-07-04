@@ -13,9 +13,15 @@ public class VectorTest {
         strings.add("bb");
         strings.add("cc");
 
-        strings.clear();
+        for (String string : strings) {
+            System.out.println(string);
+        }
 
-        System.out.println(strings.size());
-        System.out.println(strings.get(2));
+//        strings.clear();
+//
+//        System.out.println(strings.size());
+//        System.out.println(strings.get(2));
+//
+//        Vector<Boolean> booleen = new Vector<>();
     }
 }

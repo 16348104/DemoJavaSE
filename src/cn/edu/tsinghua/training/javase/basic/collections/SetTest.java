@@ -35,22 +35,34 @@ public class SetTest {
 //            System.out.println(string);
         }
 
-        Set<Integer> set = new TreeSet<>();
+        TreeSet<Integer> set = new TreeSet<>();
         set.add(0);
         set.add(-1);
         set.add(100);
         set.add(-200);
 
+        Iterator<Integer> iterator1 = set.descendingIterator();
+
+        while (iterator1.hasNext()) {
+            Integer next = iterator1.next();
+            System.out.println(next);
+        }
+        System.out.println("------");
         for (Integer integer : set) {
             System.out.println(integer);
         }
 
-        Set<String> set1 = new TreeSet<>();
+        TreeSet<String> set1 = new TreeSet<>();
         set1.add("asdf");
         set1.add("apple");
         set1.add("java");
         set1.add("javaSe");
 
+        set1 = (TreeSet<String>) set1.descendingSet();
+        for (String s : set1) {
+            System.out.println(s);
+        }
+        System.out.println("---------");
         for (String s : set1) {
             System.out.println(s);
         }

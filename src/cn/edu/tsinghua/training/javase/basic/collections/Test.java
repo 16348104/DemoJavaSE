@@ -37,16 +37,23 @@ public class Test {
         System.out.println(strings1.size());
 
 
-        List<Integer> arrayList = new ArrayList<>();
-        List<Integer> linkedList = new LinkedList<>();
+        List<String> list = new ArrayList<>();
+//        List<String> list = new LinkedList<>();
 
         for (int i = 0; i < 1000000; i++) {
-//            arrayList.add(i);
-            linkedList.add(i);
+            list.add(i + "");
         }
 
-        long start = System.nanoTime();
-        linkedList.get(500000);
-        System.out.println(System.nanoTime() - start);
+        list.add(0, "test");
+//        list.set(0, "test");
+
+        System.out.println(list.get(1));
+        System.out.println(list.size());
+
+//        long start = System.nanoTime();
+////        list.remove("500000"); // 1000w
+//        list.remove("0"); // 200w
+////        list.remove("999999"); // 19903240
+//        System.out.println(System.nanoTime() - start);
     }
 }

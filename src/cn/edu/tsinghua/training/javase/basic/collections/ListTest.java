@@ -6,7 +6,7 @@ import java.util.*;
  * Created at 221
  * 16-7-5 上午9:22.
  */
-public class Test {
+public class ListTest {
     public static void main(String[] args) {
         Vector<Integer> integers = new Vector<>();
         integers.add(1);
@@ -42,6 +42,10 @@ public class Test {
 
         for (int i = 0; i < 1000000; i++) {
             list.add(i + "");
+        }
+
+        for (String s : list) {
+            System.out.println(s);
         }
 
         list.add(0, "test");

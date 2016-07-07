@@ -1,4 +1,4 @@
-package cn.edu.tsinghua.training.javase;
+package cn.edu.tsinghua.training.javase.basic;
 
 import java.io.FileNotFoundException;
 import java.io.RandomAccessFile;
